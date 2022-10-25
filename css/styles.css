@@ -1,0 +1,181 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Heading */
+
+.big-heading {
+  font-family: "Montserrat-black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+ /* container-fluid */
+
+.container-fluid {
+  padding:  7% 15%;
+}
+
+
+/* color section */
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* White-color section */
+
+.white-section {
+    background-color: #fff;
+}
+
+/* title */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+/*-- Navbar --*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+
+}
+
+.nav-item {
+  padding: 20px;
+}
+
+
+/* tittle button */
+
+.btn {
+  margin: 20px 10px 15px 0;
+}
+
+.tittlebutton {
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  width: 21%;
+  position: absolute;
+  right: 24%;
+}
+
+
+/* features */
+
+#features {
+  position: relative;
+}
+
+.feature-heading {
+  font-size: 2rem;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+
+/* testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.d-block {
+position: relative;
+left: 43%;
+}
+
+
+/*  press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+/* pricing section */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-section {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-heading {
+  font-size: 2rem;
+}
+
+.colunm-pricing {
+  padding: 3% 2%;
+}
+
+
+/* footer */
+
+
+.social-icon {
+  padding: 10px;
+  color: black;
+}
+
+.footer-para {
+  padding-top: 30px;
+}
+
+/* Mobile screen */
+
+@media (max-width: 990px){
+
+  #title{
+    text-align: center;
+  }
+
+  .tittlebutton {
+    position: static;
+    transform: rotate(0deg);
+    padding-top: 8%;
+  }
+}
